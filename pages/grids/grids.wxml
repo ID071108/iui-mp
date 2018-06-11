@@ -1,0 +1,60 @@
+<!--pages/grids/grids.wxml-->
+<!--pages/cell/cell.wxml-->
+<view class='grids-intro'>
+  <view style='background-color: #eee; height: 6rpx;'></view>
+  <grids grids="{{grids}}"></grids>
+  <view style='background-color: #eee; height: 6rpx;'></view>
+  <view class='grids-intro_body'>
+    <view style='background-color: #eee;'>grids</view>
+    <view class='tr head'>
+      <view class='p10'>属性名</view>
+      <view class='p10'>数据类型</view>
+      <view class='p10'>默认值</view>
+      <view class='p10'>描述</view>
+    </view>
+    <view class='tr'>
+      <view class='p10'>girds</view>
+      <view class='p10'>Array</view>
+      <view class='p10'>[]</view>
+      <view class='p10'>数组形式grid</view>
+    </view>
+    <view style='background-color: #eee;'>grid</view>
+    <view class='tr head'>
+      <view class='p10'>属性名</view>
+      <view class='p10'>数据类型</view>
+      <view class='p10'>默认值</view>
+      <view class='p10'>描述</view>
+    </view>
+    <view class='tr'>
+      <view class='p10'>gird</view>
+      <view class='p10'>Object</view>
+      <view class='p10'>''</view>
+      <view class='p10'>对象形式的参数param</view>
+    </view>
+    <view style='background-color: #eee;'>params</view>
+    <view class='tr head'>
+      <view class='p10'>属性名</view>
+      <view class='p10'>数据类型</view>
+      <view class='p10'>默认值</view>
+      <view class='p10'>描述</view>
+    </view>
+    <view class='tr'>
+      <view class='p10'>label</view>
+      <view class='p10'>String</view>
+      <view class='p10'></view>
+      <view class='p10'>标题</view>
+    </view>
+    <view class='tr'>
+      <view class='p10'>iconPath</view>
+      <view class='p10'>String</view>
+      <view class='p10'></view>
+      <view class='p10'>图片地址</view>
+    </view>
+    <view class='tr'>
+      <view class='p10'>url</view>
+      <view class='p10'>String</view>
+      <view class='p10'></view>
+      <view class='p10'>点击单元格跳转路径</view>
+    </view>
+  </view>
+</view>

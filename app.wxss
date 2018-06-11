@@ -1,0 +1,18 @@
+@import "reset.wxss";
+ @import "./public/wxss/iconfont.wxss"; 
+
+/**app.wxss**/
+
+page {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

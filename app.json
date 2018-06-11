@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/form/form",
+    "pages/input/input",
+    "pages/scroll-flow/scroll-flow",
+    "pages/index/index",
+    "pages/icon/icon",
+    "pages/tabs/tabs",
+    "pages/iconfont/iconfont",
+    "pages/grids/grids",
+    "pages/cell-group/cell-group",
+    "pages/cell/cell"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

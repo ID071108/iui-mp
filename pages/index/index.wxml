@@ -1,0 +1,28 @@
+<!--pages/intro/index.wxml-->
+<view class='intro'>
+  <view class='intro-header'>
+    <image class='intro-header_logo' src='../../public/logo/pulse.svg'></image>
+  </view>
+  <view class='intro-title p20'>
+    <text>基础组件</text>
+  </view>
+  <view class='intro-title'>
+    <cell-group>
+      <cell title="cell" linkType="navigateTo" isLink="true" url="/pages/cell/cell"></cell>
+      <cell title="cell-group" linkType="navigateTo" isLink="true" url="/pages/cell-group/cell-group"></cell>
+      <cell title="grids" linkType="navigateTo" isLink="true" url="/pages/grids/grids"></cell>
+      <cell title="icon" linkType="navigateTo" isLink="true" url="/pages/icon/icon"></cell>
+      <cell title="iconfont" linkType="navigateTo" isLink="true" url="/pages/iconfont/iconfont"></cell>
+      <cell title="tabs" linkType="navigateTo" isLink="true" url="/pages/tabs/tabs"></cell>
+      <cell title="tabs" linkType="navigateTo" isLink="true" url="/pages/tabs/tabs"></cell>
+    </cell-group>
+  </view>
+  <view class='intro-title p20'>
+    <text>定制组件</text>
+  </view>
+  <view class='intro-title'>
+    <cell-group>
+      <cell title="scroll-flow" linkType="navigateTo" isLink="true" url="/pages/scroll-flow/scroll-flow"></cell>
+    </cell-group>
+  </view>
+</view>

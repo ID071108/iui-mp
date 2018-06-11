@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "scroll-flow",
+  "usingComponents": {
+    "scroll-flow": "../../components/scroll-flow/index"
+  }
+}

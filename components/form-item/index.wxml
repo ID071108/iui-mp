@@ -1,0 +1,15 @@
+<!-- components/input/index.wxml -->
+<view class="iui__formItem {{inline ? 'inline' : ''}} {{disabled ? 'disabled' : ''}}">
+  <view class="iui__formItem--wrap">
+    <view wx:if="{{label}}" class="iui__formItem--label label-cls">
+      <text wx:if="{{required}}" class="required">*</text>
+      <text class="text">{{label}}</text>
+    </view>
+    <view class="iui__formItem--content">
+      <slot></slot>
+    </view>
+    <!-- <textarea wx:if="{{type === 'textarea'}}" disabled="{{disabled}}" class="iui__textarea--content {{errorMsg ? 'err' : ''}} textarea-cls" name="{{name}}" placeholder="{{placeholder}}" bindinput="onInput" bindfocus="onFocus" bindblur="onBlur" style="color: {{errorMsg ? '#f00' : ''}}" placeholder-style="text-align: right;"></textarea>
+    <input wx:else disabled="{{disabled}}" class="iui__input--content {{errorMsg ? 'err' : ''}} input-cls" name="{{name}}" value="{{value}}" type="{{inputType}}" placeholder="{{placeholder}}" bindinput="onInput" bindfocus="onFocus" bindblur="onBlur" placeholder-style="text-align: right; color: {{errorMsg ? '#f00' : ''}}"></input> -->
+  </view>
+  <text class="iui__formItem--error error-cls">{{errorMsg}}</text>
+</view>

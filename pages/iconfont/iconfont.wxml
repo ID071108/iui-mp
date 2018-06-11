@@ -1,0 +1,782 @@
+<!--pages/iconfont/iconfont.wxml-->
+<view class='iconfont-intro p20'>
+  <view class='font-16' style="margin-bottom: 10px;">使用方法: </view>
+  <view class='p20' style="background-color: #eee">
+    直接在view, text等组件上添加 
+    <text class='c-red'>class="iconfont icon-*"</text>
+  </view>
+</view>
+<row row-class="p10">
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-check-close-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>check-close-circle-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-CI" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>CI</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-Dollar" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>Dollar</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-compass" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>compass</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-frown" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>frown</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-info-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>info-circle-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-left-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>left-circle-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-down-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>down-circle-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-copyright" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>copyright</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-EURO" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>EURO</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-minus-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>minus-circle-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-meh" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>meh</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-plus-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>plus-circle-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-play-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>play-circle-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-question-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>question-circle-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-Pound" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>Pound</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-right-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>right-circle-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-smile" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>smile</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-trademark" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>trademark</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-time-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>time-circle-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-timeout" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>timeout</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-earth" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>earth</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-YUAN" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>YUAN</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-up-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>up-circle-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-sync" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>sync</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-warning-circle-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>warning-circle-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-transaction" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>transaction</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-undo" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>undo</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-reload" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>reload</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-redo" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>redo</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-reloadtime" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>reloadtime</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-message" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>message</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-issuesclose" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>issuesclose</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-poweroff" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>poweroff</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-logout" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>logout</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-login" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>login</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-piechart" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>piechart</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-setting" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>setting</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-location" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>location</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-eye" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>eye</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-edit-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>edit-square-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-export" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>export</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-save" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>save</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-Import" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>Import</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-appstore" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>appstore</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-close-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>close-square-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-down-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>down-square-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-layout" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>layout</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-left-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>left-square-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-play-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>play-square-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-control" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>control</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-codelibrary" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>codelibrary</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-detail" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>detail</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-minus-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>minus-square-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-plus-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>plus-square-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-right-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>right-square-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-project" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>project</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-wallet" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>wallet</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-up-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>up-square-o</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-calculator" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>calculator</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-interation" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>interation</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-check-square-o" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>check-square-o</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-border" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>border</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-border-outer" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>border-outer</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-adduser" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>adduser</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-deleteteam" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>deleteteam</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-deleteuser" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>deleteuser</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-addteam" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>addteam</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-user" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>user</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-team" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>team</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-areachart" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>areachart</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-linechart" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>linechart</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-barchart" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>barchart</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-pointmap" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>pointmap</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-container" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>container</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-database" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>database</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-sever" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>sever</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-mobile" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>mobile</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-tablet" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>tablet</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-redenvelope" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>redenvelope</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-book" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>book</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-filedone" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>filedone</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-reconciliation" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>reconciliation</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-file-exception" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>file-exception</text>
+  </view>
+  </col>
+</row>
+<row>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-filesync" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>filesync</text>
+  </view>
+  </col>
+  <col col="12">
+  <view class='center'>
+    <text class="iconfont icon-barcode" style="font-size: 30px;"></text>
+  </view>
+  <view class='center'>
+    <text>barcode</text>
+  </view>
+  </col>
+</row>

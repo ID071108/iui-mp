@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "tabs",
+  "usingComponents": {
+    "tabs": "../../components/tabs/index"
+  }
+}

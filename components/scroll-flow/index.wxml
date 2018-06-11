@@ -1,0 +1,9 @@
+<!--components/scroll-flow/scrollFlow.wxml-->
+<view class="wrap wrap-cls">
+  <scroll-view class='sidebar sidebar-cls'>
+    <view wx:for="{{config.sidebarTabs}}" wx:key="sidebar-item-{{index}}" class="{{activeIndex == index ? 'active' : ''}} + ' sidebar-item'" data-for="{{config.keyword + index}}" data-key="{{index}}" bindtap='tap'>{{item}}</view>
+  </scroll-view>
+  <scroll-view class='content content-cls' scroll-y="{{true}}" enable-back-to-top scroll-into-view="{{scrollTo}}" scroll-with-animation bindscroll="scroll">
+     <view class='content-item' wx:for="{{config.contentTabs}}" wx:key="content-item-{{index}}" id='{{config.keyword + index}}' class='view' style="height: {{index == config.contentTabs.length-1 && '101%'}};">{{item}}</view> 
+  </scroll-view>
+</view>

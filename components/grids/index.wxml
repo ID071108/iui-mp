@@ -1,0 +1,12 @@
+<view class="">
+  <view class="">
+    <view class="grids">
+      <block wx:for="{{grids}}" wx:key="{{item.label + index}}">
+        <navigator url="{{item.url}}" class="grid" hover-class="grid_active">
+          <image class="grid__icon" src="{{item.iconPath}}" />
+          <view class="grid__label">{{item.label}}</view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+</view>

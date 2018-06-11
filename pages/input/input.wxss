@@ -1,0 +1,42 @@
+/* pages/input/input.wxss */
+
+page {
+  height: 100%;
+}
+
+.iui__input--wrap {
+  display: flex;
+  padding: 0 20rpx;
+}
+
+.iui__input--label {
+  width: 240rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+
+.iui__input--required {
+  color: #f00;
+}
+
+.iui__input--content,
+.iui__textarea--content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 10rpx;
+  border: 1px solid #aaa;
+}
+
+.iui__input--content {
+  height: 60rpx;
+}
+
+.iui__textarea--content {
+  height: 120rpx;
+}
+
+.iui__input--error {
+  padding-left: 200rpx;
+  color: #f00;
+}

@@ -1,0 +1,10 @@
+<view class="page">
+  <view class="tabs">
+    <block wx:for="{{tabs}}" wx:key="*this">
+      <view data-label="{{item}}" id="{{index}}" class="tabs__item {{activeIndex == index ? 'tabs-bar__item_on' : ''}}" bindtap="tabClick">
+        <view class="tabs__title">{{item}}</view>
+      </view>
+    </block>
+    <view class="tabs__slider" style="left: {{sliderLeft}}px; width: {{width}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+  </view>
+</view>

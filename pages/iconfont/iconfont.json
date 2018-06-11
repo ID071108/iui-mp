@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "iconfont-字体图标库",
+  "usingComponents": {
+    "row": "../../components/row/index",
+    "col": "../../components/col/index"
+  }
+}

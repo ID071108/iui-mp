@@ -1,0 +1,43 @@
+<!--pages/scroll-flow/scroll-flow.wxml-->
+<view class="scroll-flow">
+  <scroll-flow config="{{config}}"></scroll-flow>
+  <view class='tr head'>
+    <view class='p10 name'>属性名</view>
+    <view class='p10 type'>数据类型</view>
+    <view class='p10 defVal'>默认值</view>
+    <view class='p10 desc'>描述</view>
+  </view>
+  <view class='tr'>
+    <view class='p10 name'>config</view>
+    <view class='p10 type'>Object</view>
+    <view class='p10 defVal'></view>
+    <view class='p10 desc'>滚动跟随配置项</view>
+  </view>
+  <view class='tr head'>
+    <view class='p10 name'>属性名</view>
+    <view class='p10 type'>数据类型</view>
+    <view class='p10 defVal'>默认值</view>
+    <view class='p10 desc'>描述</view>
+  </view>
+  <view class='tr'>
+    <view class='p10 name'>config.keyword</view>
+    <view class='p10 type'>String</view>
+    <view class='p10 defVal'></view>
+    <view class='p10 desc'>设置内容区域的id</view>
+  </view>
+  <view class='tr'>
+    <view class='p10 name'>config.sidebarTabs</view>
+    <view class='p10 type'>Array</view>
+    <view class='p10 defVal'></view>
+    <view class='p10 desc'>侧边栏内容</view>
+  </view>
+  <view class='tr'>
+    <view class='p10 name'>config.contentTabs</view>
+    <view class='p10 type'>Array</view>
+    <view class='p10 defVal'></view>
+    <view class='p10 desc'>内容区域</view>
+  </view>
+  <view class='p20' style="color: #fff; background-color: #aaa;">
+    当前组件并不完整, 内容区域仅支持自定义
+  </view>
+</view>

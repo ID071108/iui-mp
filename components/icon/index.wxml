@@ -1,0 +1,3 @@
+<view class="icon" style="width: {{size}}px; height: {{size}}px; border-radius: {{shape == 'square' ? 0 : size}}px;" bindtap='onTap'>
+  <image class="icon__img" wx:if="{{!!type}}" src="./icons/{{type}}.svg" alt="{{type}}"></image>
+</view>

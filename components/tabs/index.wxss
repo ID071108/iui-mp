@@ -1,0 +1,58 @@
+/* components/tabs/tabs.wxss */
+
+.page {
+   height: 120rpx; 
+}
+.tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  width: 100%;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.tabs__item {
+  position: relative;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 13px 0;
+  text-align: center;
+  font-size: 0;
+}
+
+.tabs__item.weui-bar__item_on {
+  color: #1aad19;
+}
+
+.tabs__slider {
+  position: absolute;
+  content: " ";
+  left: 0;
+  bottom: 0;
+  /* width: 6em; */
+  height: 3px;
+  background-color: #f19800;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.tabs__title {
+  display: inline-block;
+  font-size: 15px;
+  max-width: 8em;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.tabs-bar__item_on {
+  color: #f19800;
+}

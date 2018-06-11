@@ -1,0 +1,95 @@
+/* components/form/index.wxss */
+
+page {
+  font-size: 28rpx;
+  height: 100%;
+}
+
+/* .iui__formItem--wrap {
+  padding: 0 20rpx;
+}
+
+/* 外层容器样式 */
+
+.iui__formItem.inline>.iui__formItem--wrap {
+  display: flex;
+}
+
+/* 标题样式 */
+
+.iui__formItem--label {
+  width: 240rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.iui__formItem.inline>.iui__formItem--wrap>.iui__formItem--label {
+  text-align: center;
+}
+
+.iui__formItem.disabled>.iui__formItem--wrap>.iui__formItem--label {
+  color: #ccc;
+}
+
+.iui__formItem--required {
+  color: #f00;
+}
+
+/* 内容主题样式 */
+
+/* .iui__formItem--content,
+.iui__textarea--content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 10rpx;
+  border-color: #aaa;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  transition: border-color .1s, box-shadow .1s;
+}
+
+.iui__formItem--content.err,
+.iui__textarea--content.err {
+  color: #f00;
+}
+
+.iui__formItem--content:hover,
+.iui__textarea--content:hover {
+  border-color: #40a9ff;
+  box-shadow: 0 0 3px #40a9ff;
+}
+
+.iui__formItem.disabled .iui__formItem--content:hover,
+.iui__formItem.disabled .iui__textarea--content:hover {
+  border-color: #aaa;
+  box-shadow: 0 0 0 #40a9ff;
+}
+
+.iui__formItem.disabled .iui__formItem--content,
+.iui__formItem.disabled .iui__textarea--content {
+  color: #aaa;
+}
+
+.iui__formItem--content {
+  height: 60rpx;
+}
+
+.iui__textarea--content {
+  height: 120rpx;
+} */
+
+/* 错误信息提示 */
+
+/* .iui__formItem--error {
+  padding-left: 20rpx;
+  color: #f00;
+}
+
+.iui__formItem.inline>.iui__formItem--error {
+  padding-left: 200rpx;
+}
+
+.iui__formItem.disabled>.iui__formItem--error {
+  color: #ccc;
+}  */

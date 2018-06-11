@@ -1,0 +1,29 @@
+<!--pages/tabs/tabs.wxml-->
+<tabs bindtabClick="tabClick" activeIndex="{{activeIndex}}"></tabs>
+<view wx:if="{{activeIndex == 0}}">内容一</view>
+<view wx:if="{{activeIndex == 1}}">内容二</view>
+<view wx:if="{{activeIndex == 2}}">内容三</view>
+<view class='tr head'>
+  <view class='p10 name'>属性名</view>
+  <view class='p10 type'>数据类型</view>
+  <view class='p10 defVal'>默认值</view>
+  <view class='p10 desc'>描述</view>
+</view>
+<view class='tr'>
+  <view class='p10 name'>tabs</view>
+  <view class='p10 type'>Array</view>
+  <view class='p10 defVal'>['选项一', '选项二', '选项三']</view>
+  <view class='p10 desc'>标签页显示内容</view>
+</view>
+<view class='tr'>
+  <view class='p10 name'>activeIndex</view>
+  <view class='p10 type'>Number</view>
+  <view class='p10 defVal'></view>
+  <view class='p10 desc'>标签页数组的key,即0,1,2...</view>
+</view>
+<view class='tr'>
+  <view class='p10 name'>tabClick</view>
+  <view class='p10 type'>Function</view>
+  <view class='p10 defVal'></view>
+  <view class='p10 desc'>点击标签页时的操作</view>
+</view>

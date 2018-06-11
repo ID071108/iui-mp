@@ -1,0 +1,35 @@
+/* components/grid/grid.wxss */
+
+.grids {
+  overflow: hidden;
+}
+
+.grid {
+  position: relative;
+  float: left;
+  padding: 20rpx 10rpx;
+  width: 33.33333333%;
+  box-sizing: border-box;
+}
+
+.grid_active {
+  background-color: #ececec;
+}
+
+.grid__icon {
+  display: block;
+  width: 112rpx;
+  height: 112rpx;
+  margin: 0 auto;
+}
+
+.grid__label {
+  margin-top: 5px;
+  display: block;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

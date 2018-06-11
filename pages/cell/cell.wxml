@@ -1,0 +1,68 @@
+<!--pages/cell/cell.wxml-->
+<view class='cell-intro'>
+  <view style='background-color: #eee; height: 6rpx;'></view>
+  <cell title="title" value="value" label="label" isLink="{{true}}"></cell>
+  <view style='background-color: #eee; height: 6rpx;'></view>
+  <view class='cell-intro_body'>
+    <view class='tr head'>
+      <view class='p10 name'>属性名</view>
+      <view class='p10 type'>数据类型</view>
+      <view class='p10 defVal'>默认值</view>
+      <view class='p10 desc'>描述</view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>title</view>
+      <view class='p10 type'>String</view>
+      <view class='p10 defVal'>''</view>
+      <view class='p10 desc'>左侧标题</view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>label</view>
+      <view class='p10 type'>String</view>
+      <view class='p10 defVal'>''</view>
+      <view class='p10 desc'>标题下方的描述信息</view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>value</view>
+      <view class='p10 type'>String</view>
+      <view class='p10 defVal'>''</view>
+      <view class='p10 desc last'>右侧内容</view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>onlyTapFooter</view>
+      <view class='p10 type'>Boolean</view>
+      <view class='p10 defVal'>''</view>
+      <view class='p10 desc'>只有点击 footer 区域才触发 tab 事件</view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>isLink</view>
+      <view class='p10 type'>null</view>
+      <view class='p10 defVal'>false</view>
+      <view class='p10 desc'>是否展示右侧箭头并开启尝试以 url 跳转/view></view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>linkType</view>
+      <view class='p10 type'>String</view>
+      <view class='p10 defVal'>navigateTo</view>
+      <view class='p10 desc'>链接类型，可选值为 navigateTo，redirectTo，switchTab，reLaunch</view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>url</view>
+      <view class='p10 type'>String</view>
+      <view class='p10 defVal'>''</view>
+      <view class='p10 desc'>跳转路径</view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>tap</view>
+      <view class='p10 type'>Function</view>
+      <view class='p10 defVal'></view>
+      <view class='p10 desc'>触屏操作</view>
+    </view>
+    <view class='tr'>
+      <view class='p10 name'>slot</view>
+      <view class='p10 type'>node</view>
+      <view class='p10 defVal'></view>
+      <view class='p10 desc'>name 属性 可以指定为 icon footer, 也可以指定 </view>
+    </view>
+  </view>
+</view>

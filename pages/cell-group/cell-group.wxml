@@ -1,0 +1,14 @@
+<!--pages/cell-group/cell-group.wxml-->
+<view>
+  <view style='background-color: #eee; height: 6rpx;'></view>
+  <cell-group>
+    <cell title="title" value="value" label="label" isLink="{{true}}"></cell>
+    <cell title="title" value="value" label="label" isLink="{{true}}"></cell>
+  </cell-group>
+  <view style='background-color: #eee; height: 6rpx;'></view>
+  <view style='line-height: 60rpx; color: red;'>
+    <view class='p10'>
+      当使用cell-group会自动在两个cell之间产生分割线, 其他方面并无处理
+    </view>
+  </view>
+</view>

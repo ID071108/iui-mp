@@ -1,0 +1,5 @@
+<!-- components/input/index.wxml -->
+<view class="iui__input {{disabled ? 'disabled' : ''}}">
+  <textarea wx:if="{{type === 'textarea'}}" disabled="{{disabled}}" class="iui__textarea--content {{errorMsg ? 'err' : ''}} textarea-cls" name="{{name}}" placeholder="{{placeholder}}" bindinput="onInput" bindfocus="onFocus" bindblur="onBlur"></textarea>
+  <input wx:else disabled="{{disabled}}" class="iui__input--content {{errorMsg ? 'err' : ''}} input-cls" value="{{value}}" data-value="{{_value}}" data-a="453465465654465" data-set="0000" type="{{inputType}}" bindinput="onInput" bindfocus="onFocus" bindblur="onBlur"></input>
+</view>

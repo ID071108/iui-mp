@@ -1,0 +1,14 @@
+/* pages/cell/cell.wxss */
+
+.tr {
+  display: flex;
+  border-top: 1px solid #eee;
+}
+
+.tr.head {
+  color: #f00;
+}
+
+.tr > .p10 {
+  flex: 1;
+}

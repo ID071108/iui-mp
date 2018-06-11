@@ -1,0 +1,16 @@
+/* pages/intro/index.wxss */
+
+/* common */
+.intro-title {
+  background-color: #eee;
+}
+
+.intro-header {
+  height: 300rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.intro-header_logo {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,5 @@
+<!-- components/form/index.wxml -->
+<form class="iui-form" bindsubmit="submit">
+  <slot></slot>
+  <button form-type="submit">submit</button>
+</form>

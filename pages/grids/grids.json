@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "grids",
+  "usingComponents": {
+    "grids": "../../components/grids/index"
+  }
+}

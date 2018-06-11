@@ -1,0 +1,165 @@
+<!--pages/icon/icon.wxml-->
+<view class='iconfont-intro p20'>
+  <view class='font-16' style="margin-bottom: 10px;">使用方法: </view>
+  <view class='p20 c-red' style="background-color: #eee;">
+    {{'<view type="type" iconPath="path/to/your/img" size="size"></view>'}}
+  </view>
+</view>
+<view class='tr head'>
+  <view class='p10 name'>属性名</view>
+  <view class='p10 type'>数据类型</view>
+  <view class='p10 defVal'>默认值</view>
+  <view class='p10 desc'>描述</view>
+</view>
+<view class='tr'>
+  <view class='p10 name'>type</view>
+  <view class='p10 type'>String</view>
+  <view class='p10 defVal'></view>
+  <view class='p10 desc'>设置icon的类型</view>
+</view>
+<view class='tr'>
+  <view class='p10 name'>size</view>
+  <view class='p10 type'>Number</view>
+  <view class='p10 defVal'></view>
+  <view class='p10 desc'>自定义Icon的大小</view>
+</view>
+<view class='tr'>
+  <view class='p10 name'>iconPath</view>
+  <view class='p10 type'>String</view>
+  <view class='p10 defVal'>16px</view>
+  <view class='p10 desc'>自定义Icon的图片路径</view>
+</view>
+<view class='tr'>
+  <view class='p10 name'>shape</view>
+  <view class='p10 type'>String</view>
+  <view class='p10 defVal'>square | circle</view>
+  <view class='p10 desc'>图标形状</view>
+</view>
+<row row-class="p10">
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="add-user" bindiconClick="tap"></icon>
+    <text>add-user</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="bell" bindiconClick="tap"></icon>
+    <text>bell</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="copyright" bindiconClick="tap"></icon>
+    <text>copyright</text>
+  </view>
+  </col>
+</row>
+<row row-class="p10">
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="delete-team" bindiconClick="tap"></icon>
+    <text>delete-team</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="delete-user" bindiconClick="tap"></icon>
+    <text>delete-user</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="down" bindiconClick="tap"></icon>
+    <text>down</text>
+  </view>
+  </col>
+</row>
+<row row-class="p10">
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="info-circle-o" bindiconClick="tap"></icon>
+    <text>info-circle-o</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="left" bindiconClick="tap"></icon>
+    <text>left</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="minus-circle-o" bindiconClick="tap"></icon>
+    <text>minus-circle-o</text>
+  </view>
+  </col>
+</row>
+<row row-class="p10">
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="mobile" bindiconClick="tap"></icon>
+    <text>mobile</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="redo" bindiconClick="tap"></icon>
+    <text>redo</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="plus-circle-o" bindiconClick="tap"></icon>
+    <text>plus-circle-o</text>
+  </view>
+  </col>
+</row>
+<row row-class="p10">
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="reload" bindiconClick="tap"></icon>
+    <text>reload</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="right" bindiconClick="tap"></icon>
+    <text>right</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="star" bindiconClick="tap"></icon>
+    <text>star</text>
+  </view>
+  </col>
+</row>
+<row row-class="p10">
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="team" bindiconClick="tap"></icon>
+    <text>team</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="undo" bindiconClick="tap"></icon>
+    <text>undo</text>
+  </view>
+  </col>
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="up" bindiconClick="tap"></icon>
+    <text>up</text>
+  </view>
+  </col>
+</row>
+<row row-class="p10">
+  <col col="8">
+  <view class='flex ac'>
+    <icon type="user" bindiconClick="tap"></icon>
+    <text>user</text>
+  </view>
+  </col>
+</row>

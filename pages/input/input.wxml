@@ -1,0 +1,11 @@
+<!-- pages/input/input.wxml -->
+<view class="iui__input--intro">
+  <iui-form>
+    <iui-input disabled="{{true}}" name="second" value="second" class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
+    <iui-input class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
+    <iui-input class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
+    <iui-input class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
+    <iui-input class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
+    <button type="submit">submit</button>
+  </iui-form>
+</view>

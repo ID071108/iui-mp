@@ -1,0 +1,1 @@
+  <view class="col-class col {{ col ? 'col-' + col : '' }} {{ offset ? 'col-offset-' + offset : '' }}"><slot></slot></view>

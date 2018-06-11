@@ -1,0 +1,95 @@
+/* components/input/index.wxss */
+
+page {
+  font-size: 28rpx;
+  height: 100%;
+}
+
+.iui__input--wrap {
+  padding: 0 20rpx;
+}
+
+/* 外层容器样式 */
+
+.iui__input.inline>.iui__input--wrap {
+  display: flex;
+}
+
+/* 标题样式 */
+
+.iui__input--label {
+  width: 240rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.iui__input.inline>.iui__input--wrap>.iui__input--label {
+  text-align: center;
+}
+
+.iui__input.disabled>.iui__input--wrap>.iui__input--label {
+  color: #ccc;
+}
+
+.iui__input--required {
+  color: #f00;
+}
+
+/* 内容主题样式 */
+
+.iui__input--content,
+.iui__textarea--content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 10rpx;
+  border-color: #aaa;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  transition: border-color .1s, box-shadow .1s;
+}
+
+.iui__input--content.err,
+.iui__textarea--content.err {
+  color: #f00;
+}
+
+.iui__input--content:hover,
+.iui__textarea--content:hover {
+  border-color: #40a9ff;
+  box-shadow: 0 0 3px #40a9ff;
+}
+
+.iui__input.disabled .iui__input--content:hover,
+.iui__input.disabled .iui__textarea--content:hover {
+  border-color: #aaa;
+  box-shadow: 0 0 0 #40a9ff;
+}
+
+.iui__input.disabled .iui__input--content,
+.iui__input.disabled .iui__textarea--content {
+  color: #aaa;
+}
+
+.iui__input--content {
+  height: 60rpx;
+}
+
+.iui__textarea--content {
+  height: 120rpx;
+}
+
+/* 错误信息提示 */
+
+.iui__input--error {
+  padding-left: 20rpx;
+  color: #f00;
+}
+
+.iui__input.inline>.iui__input--error {
+  padding-left: 200rpx;
+}
+
+.iui__input.disabled>.iui__input--error {
+  color: #ccc;
+}

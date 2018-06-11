@@ -1,0 +1,24 @@
+/* components/scroll-flow/scrollFlow.wxss */
+
+.wrap {
+  display: flex;
+}
+
+.sidebar {
+  width: 200rpx;
+  background-color: #f2f2f2;
+}
+
+.sidebar-item {
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+
+.sidebar-item.active {
+  background-color: #fff;
+}
+
+.content-item {
+  padding: 20rpx;
+}

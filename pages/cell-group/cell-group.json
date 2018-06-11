@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "cell",
+  "usingComponents": {
+    "cell-group": "../../components/cell-group/index",
+    "cell": "../../components/cell/index"
+  }
+}

@@ -1,0 +1,9 @@
+<!-- pages/form/form.wxml -->
+<view class="iui__form--intro">
+  <form labelWidth="120" form="{{form}}" bindsubmit="submit">
+    <iui-form-item label="名称">
+      <iui-input class="ad" name="uname" label="input" value="123" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
+    </iui-form-item>
+    <button form-type="submit">submit</button>
+  </form>
+</view>
