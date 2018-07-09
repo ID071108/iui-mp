@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/form/form",
     "pages/input/input",
+    "pages/form/form",
     "pages/scroll-flow/scroll-flow",
     "pages/index/index",
     "pages/icon/icon",

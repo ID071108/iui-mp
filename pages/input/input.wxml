@@ -1,7 +1,15 @@
 <!-- pages/input/input.wxml -->
 <view class="iui__input--intro">
   <iui-form>
-    <iui-input disabled="{{true}}" name="second" value="second" class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
+    <label>
+      <checkbox></checkbox>
+      <view class="label-1__icon">
+        <view class="label-1__icon-checked"></view>
+      </view>
+      <text class="label-1__text">123</text>
+    </label>
+    <label for="example1">example1</label>
+    <iui-input id="example1" disabled="{{true}}" name="second" value="second" class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
     <iui-input class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
     <iui-input class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
     <iui-input class="ad" label="input" required="{{true}}" error="{{true}}" placeholder="input" errorMsg="错误提示" bindinput="handleNameInput" bindfocus="handleNameFocus" bindblur="handleNameBlur"></iui-input>
