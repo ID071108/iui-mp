@@ -1,6 +1,6 @@
-# iui
-> 参考weui、zan-ui来建立的一套ui组件
-## cell
+## noname
+> 小程序ui组件
+### cell
 > 可跳转列表项
 + code
 ```js
@@ -68,7 +68,7 @@
   ```
 }
 
-## cell-group
+### cell-group
 > 可跳转列表组
 + code
 ```js
@@ -86,7 +86,7 @@
 ```
 * 使用cell-group会在cell之间产生分割线
 
-## grids
+### grids
 > 九宫格组件，可传入任意长度数组
 + code
 ```js
@@ -107,7 +107,7 @@
       url: 跳转路径
     }]
   ```
-## icon
+### icon
 > 图标组件, 使用字体图标(阿里图标库), 或使用自定义图标并传入图片路径
 + code
 ```js
@@ -141,7 +141,7 @@
     }
   ```
 
-## tabs
+### tabs
 > 导航栏标签页
 + code
 ```js
